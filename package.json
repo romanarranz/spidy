@@ -1,0 +1,24 @@
+{
+  "name": "spidy",
+  "version": "0.0.1",
+  "description": "App to analyze dynamically a webiste or SPA using headless and automation dev tools",
+  "main": "index.js",
+  "author": "Roman Arranz Guerrero",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7",
+    "npm": "~4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"There is nothing to do\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cli-color": "^1.2.0",
+    "commander": "^2.15.1",
+    "js2xmlparser": "^3.0.0",
+    "puppeteer": "^1.2.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
